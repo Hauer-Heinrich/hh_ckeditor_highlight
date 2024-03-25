@@ -1,0 +1,24 @@
+# Load default processing options
+imports:
+    - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Processing.yaml' }
+    - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml' }
+    - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml' }
+
+# Add configuration for the editor
+# For complete documentation see https://ckeditor.com/docs/ckeditor5/latest/features/index.html
+editor:
+  config:
+    importModules:
+      - { module: '@ckeditor/ckeditor5-highlight', exports: ['Highlight'] }
+
+    highlight:
+      options:
+        - { model: 'brandPen', class: 'color-brand', title: 'Color Brand (pen)', color: '#4DAF2E', type: 'pen' }
+        - { model: 'brandMark', class: 'color-brand', title: 'Color Brand (marker)', color: '#4DAF2E', type: 'marker' }
+
+    toolbar:
+      items:
+        - highlight
+
+    plugins:
+      - Highlight

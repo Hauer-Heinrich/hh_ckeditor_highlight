@@ -1,0 +1,51 @@
+{
+    "type": "typo3-cms-extension",
+    "name": "hauerheinrich/hh-ckeditor-highlight",
+    "description": "Same as the original ck_editor highlight plugin but output 'span'-tag instead of 'mark'.",
+    "keywords": [ "TYPO3 CMS", "TYPO3", "extension", "ckeditor" ],
+    "homepage": "https://www.hauer-heinrich.de",
+    "readme": "README.md",
+    "time": "2024-03-09",
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Christian Hackl",
+            "homepage": "https://www.hauer-heinrich.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Hauer-Heinrich/hh_ckeditor_highlight/issues",
+        "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_highlight",
+        "docs": "https://github.com/Hauer-Heinrich/hh_ckeditor_highlight/blob/master/README.md"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.com/paypalme/hauerheinrich"
+        }
+    ],
+    "replace": {
+        "HauerHeinrich/hh_ckeditor_highlight": "self.version",
+        "typo3-ter/hh-ckeditor-highlight": "self.version"
+    },
+    "require": {
+        "typo3/cms-core": "^12.4.0",
+        "typo3/cms-rte-ckeditor": "^12.4.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "HauerHeinrich\\HhCkeditorHightlight\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web",
+            "extension-key": "hh_ckeditor_highlight"
+        }
+    }
+}
