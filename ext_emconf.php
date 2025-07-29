@@ -12,7 +12,7 @@
 
 $EM_CONF['hh_ckeditor_highlight'] = [
     'title' => 'Hauer-Heinrich - ck_editor hightlight plugin',
-    'description' => 'Same as the original ck_editor highlight plugin but output "span"-tag instead of "mark".',
+    'description' => 'Same as the original ck_editor highlight plugin but output "span"-tag instead of "mark" (optional).',
     'category' => 'plugin',
     'version' => '2.0.0',
     'state' => 'stable',

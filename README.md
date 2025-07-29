@@ -14,6 +14,8 @@ You have the additional option "type": "span" to render a HTML-tag "span" elemen
 - { model: 'brandSpan', class: 'color-brand', title: 'Color Brand (span)', color: '#4DAF2E', type: 'span' }
 ```
 
+[GitHub Issue](https://github.com/ckeditor/ckeditor5/issues/6557#issuecomment-3132239802 "GitHub Issue")
+
 ### Development
 
 Want to contribute? Great!
