@@ -15,6 +15,7 @@ editor:
       options:
         - { model: 'brandPen', class: 'color-brand', title: 'Color Brand (pen)', color: '#4DAF2E', type: 'pen' }
         - { model: 'brandMark', class: 'color-brand', title: 'Color Brand (marker)', color: '#4DAF2E', type: 'marker' }
+        - { model: 'brandSpan', class: 'color-brand', title: 'Color Brand (span)', color: '#4DAF2E', type: 'span' }
 
     toolbar:
       items:

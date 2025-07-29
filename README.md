@@ -8,6 +8,11 @@ Don't forget to include the PageTS -> backend->rootPage->site configuration->res
 
 ### Configuration
 See [example](Configuration/RTE/example.yaml)
+You have the additional option "type": "span" to render a HTML-tag "span" element instead of original "mark"-tag.
+
+```
+- { model: 'brandSpan', class: 'color-brand', title: 'Color Brand (span)', color: '#4DAF2E', type: 'span' }
+```
 
 ### Development
 
